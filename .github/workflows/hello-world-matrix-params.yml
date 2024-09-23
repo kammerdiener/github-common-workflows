@@ -8,6 +8,6 @@ on:
 
 jobs:
   hello_world:
-    uses: user1/hello-world-workflows/.github/workflows/hello-world-matrix-params.yml@main
+    uses: kammerdiener/github-common-workflows-example/.github/workflows/hello-world-matrix-params.yml@main
     with:
       greeting: "Hello from the another repo!"

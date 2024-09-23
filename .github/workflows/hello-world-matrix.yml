@@ -8,4 +8,4 @@ on:
 
 jobs:
   hello_world:
-    uses: kammerdiener/github-common-workflows-example/hello-world-matrix.yml@main
+    uses: kammerdiener/github-common-workflows-example/.github/workflows/hello-world-matrix.yml@main

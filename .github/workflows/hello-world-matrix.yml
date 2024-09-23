@@ -1,0 +1,11 @@
+name: Call Hello World Matrix
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  hello_world:
+    uses: kammerdiener/github-common-workflows-example/hello-world-matrix.yml@main
